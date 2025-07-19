@@ -1,0 +1,20 @@
+# ========================
+# WordPress Configuration
+# ========================
+
+# WordPress admin login
+WORDPRESS_USERNAME=example_admin
+WORDPRESS_PASSWORD=example_your_secure_password
+WORDPRESS_EMAIL=example_admin@example.com
+
+# ========================
+# Database Configuration
+# ========================
+
+# WordPress will connect to this database using these credentials
+WORDPRESS_DB_NAME=example_wordpress
+WORDPRESS_DB_USER=example_wp_user
+WORDPRESS_DB_PASSWORD=example_wp_password
+
+# MariaDB root user password (used internally, not by WordPress)
+MYSQL_ROOT_PASSWORD=example_root_password
