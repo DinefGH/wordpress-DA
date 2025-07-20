@@ -24,7 +24,7 @@ services:
       - db
     networks:
       - wp-network
-    restart: unless-stopped
+    restart: on-failure
 
   db:
     image: bitnami/mariadb:latest
@@ -38,7 +38,7 @@ services:
       - db_data:/bitnami/mariadb
     networks:
       - wp-network
-    restart: unless-stopped
+    restart: on-failure
 
 volumes:
   wp_data:
